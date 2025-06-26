@@ -39,7 +39,7 @@ bisnis yang berdampak.
 - Bisnis Intelegence, query dapat dilihat di Eksplorasi Data
     Pertanyaan Bisnis?
     Problem Framing 
-    1. Produk mana yang paling menguntungkan?
+    1. Produk mana yang paling laris?
     2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
     3. Wilayah mana yang perlu ditingkatkan pemasarannya?
     Jawaban bisnis dapat dilihat di Hasil Eksplorasi Data with SQL
@@ -58,7 +58,7 @@ Preprocesing:
 - Bisnis Intelegence
     Pertanyaan Bisnis?
     Problem Framing
-    1. Produk mana yang paling menguntungkan?
+    1. Produk mana yang paling laris?
     2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
     3. Wilayah mana yang perlu ditingkatkan pemasarannya?
     Jawaban bisnis dapat dilihat di 
