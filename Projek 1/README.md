@@ -36,9 +36,9 @@ bisnis yang berdampak.
     
     Hasil dapat dilihat di Hasil Eksplorasi Data with SQL:
     - Terdapat 1 duplikasi, maka dilakukan penghapusan duplikasi dengan python.
-- Bisnis Intelegence
+- Bisnis Intelegence, query dapat dilihat di Eksplorasi Data
     Pertanyaan Bisnis?
-    Problem Framing
+    Problem Framing 
     1. Produk mana yang paling menguntungkan?
     2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
     3. Wilayah mana yang perlu ditingkatkan pemasarannya?
