@@ -27,6 +27,7 @@ bisnis yang berdampak.
 - Import Dataset:
   - Dataset berada di folder secure_file_priv
 - Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dilihat di Eksplorasi Data:
+  - Menampilkan banyaknya data 
   - Menampilkan tabel, telah dilakukan pengecekan terhadap tabel yang tersedia di database.
   - Menampilkan data awal, ditampilkan 10 baris pertama dari tabel untuk eksplorasi awal struktur data.
   - Cek duplikasi, dilakukan dengan menggunakan kombinasi kolom logis seperti Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit.
