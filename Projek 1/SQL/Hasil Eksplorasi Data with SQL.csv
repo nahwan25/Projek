@@ -1,0 +1,74 @@
+Banyaknya data,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+COUNT,,,,,,,,,,,,,,,,,,,,
+5899,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+"Menampilkan data awal, ditampilkan 10 baris pertama dari tabel untuk eksplorasi awal struktur data.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Product_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit
+1,CA-2016-152156,11/8/2016,11/11/2016,Second Class,CG-12520,FUR-BO-10001798,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,Furniture,Bookcases,Bush Somerset Collection Bookcase,261.96,2,0,41.91
+2,CA-2016-152156,11/8/2016,11/11/2016,Second Class,CG-12520,FUR-CH-10000454,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,Furniture,Chairs,"Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back",731.94,3,0,219.58
+3,CA-2016-138688,6/12/2016,6/16/2016,Second Class,DV-13045,OFF-LA-10000240,Darrin Van Huff,Corporate,United States,Los Angeles,California,90036,West,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,14.62,2,0,6.87
+13,CA-2017-114412,4/15/2017,4/20/2017,Standard Class,AA-10480,OFF-PA-10002365,Andrew Allen,Consumer,United States,Concord,North Carolina,28027,South,Office Supplies,Paper,Xerox 1967,15.55,3,0.2,5.44
+14,CA-2016-161389,12/5/2016,12/10/2016,Standard Class,IM-15070,OFF-BI-10003656,Irene Maddox,Consumer,United States,Seattle,Washington,98103,West,Office Supplies,Binders,Fellowes PB200 Plastic Comb Binding Machine,407.98,3,0.2,132.59
+22,CA-2016-137330,12/9/2016,12/13/2016,Standard Class,KB-16585,OFF-AR-10000246,Ken Black,Corporate,United States,Fremont,Nebraska,68025,Central,Office Supplies,Art,Newell 318,19.46,7,0,5.06
+23,CA-2016-137330,12/9/2016,12/13/2016,Standard Class,KB-16585,OFF-AP-10001492,Ken Black,Corporate,United States,Fremont,Nebraska,68025,Central,Office Supplies,Appliances,"Acco Six-Outlet Power Strip, 4' Cord Length",60.34,7,0,15.69
+24,US-2017-156909,7/16/2017,7/18/2017,Second Class,SF-20065,FUR-CH-10002774,Sandra Flanagan,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Furniture,Chairs,"Global Deluxe Stacking Chair, Gray",71.37,2,0.3,-1.02
+26,CA-2016-121755,1/16/2016,1/20/2016,Second Class,EH-13945,OFF-BI-10001634,Eric Hoffmann,Consumer,United States,Los Angeles,California,90049,West,Office Supplies,Binders,Wilson Jones Active Use Binders,11.65,2,0.2,4.22
+27,CA-2016-121755,1/16/2016,1/20/2016,Second Class,EH-13945,TEC-AC-10003027,Eric Hoffmann,Consumer,United States,Los Angeles,California,90049,West,Technology,Accessories,Imation 8GB Mini TravelDrive USB 2.0 Flash Drive,90.57,3,0,11.77
+,,,,,,,,,,,,,,,,,,,,
+"Cek duplikasi, dilakukan dengan menggunakan kombinasi kolom logis seperti Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Order_ID,Product_ID,Quantity,Sales,Discount,Profit,jumlah,,,,,,,,,,,,,,
+US-2014-150119,FUR-CH-10002965,2,281.37,0,-12.06,2,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+"Cek data kosong (NULL), analisis menyeluruh dilakukan pada semua kolom untuk mendeteksi nilai yang kosong.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Product_ID,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+"Cek tanggal rusak / salah format, menggunakan fungsi STR_TO_DATE untuk memastikan data tanggal valid dan terformat dengan benar.",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Product_ID,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+"Pertanyaan Bisnis?
+Problem Framing
+1. Produk mana yang paling laris?
+2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
+3. Wilayah mana yang perlu ditingkatkan pemasarannya?",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+1. Produk mana yang paling laris?,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Product_Name,total_qty,,,,,,,,,,,,,,,,,,,
+Staples,124,,,,,,,,,,,,,,,,,,,
+Easy-staple paper,89,,,,,,,,,,,,,,,,,,,
+Staple envelope,73,,,,,,,,,,,,,,,,,,,
+Staples in misc. colors,60,,,,,,,,,,,,,,,,,,,
+Chromcraft Round Conference Tables,59,,,,,,,,,,,,,,,,,,,
+Storex Dura Pro Binders,49,,,,,,,,,,,,,,,,,,,
+"Situations Contoured Folding Chairs, 4/Set",47,,,,,,,,,,,,,,,,,,,
+"Wilson Jones Clip & Carry Folder Binder Tool for Ring Binders, Clear",44,,,,,,,,,,,,,,,,,,,
+Avery Non-Stick Binders,43,,,,,,,,,,,,,,,,,,,
+Eldon Wave Desk Accessories,42,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Discount,jumlah_transaksi,rata_rata_sales,rata_rata_profit,,,,,,,,,,,,,,,,,
+0,2838,227.78,68.18,,,,,,,,,,,,,,,,,
+0.1,52,606.67,102.92,,,,,,,,,,,,,,,,,
+0.2,2191,214.51,25.24,,,,,,,,,,,,,,,,,
+0.3,147,459.6,-52.06,,,,,,,,,,,,,,,,,
+0.4,123,509.63,-89.69,,,,,,,,,,,,,,,,,
+0.5,45,556.61,-283.21,,,,,,,,,,,,,,,,,
+0.6,82,55.71,-52.01,,,,,,,,,,,,,,,,,
+0.7,253,96.4,-100.9,,,,,,,,,,,,,,,,,
+0.8,168,60.79,-105.38,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+3. Wilayah mana yang perlu ditingkatkan pemasarannya?,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Region,jumlah_transaksi,total_sales,total_profit,rata_rata_profit,,,,,,,,,,,,,,,,
+South,931,216516.05,26551.91,28.52,,,,,,,,,,,,,,,,
+Central,1381,294527.48,27450.1,19.88,,,,,,,,,,,,,,,,
+East,1687,393768.9,53372.15,31.64,,,,,,,,,,,,,,,,
+West,1900,437608.62,67860.88,35.72,,,,,,,,,,,,,,,,
