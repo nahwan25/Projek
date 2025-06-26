@@ -23,6 +23,7 @@ Kini saatnya kamu bukan hanya membaca data, tetapi mengubahnya menjadi keputusan
 bisnis yang berdampak.
 
 ## SQL
+- Pembuatan Tabel superstore dalam file Create Tables
 - Import Dataset:
   - Dataset berada di folder secure_file_priv
 - Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dilihat di eksplorasi data:
