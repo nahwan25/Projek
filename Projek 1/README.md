@@ -44,6 +44,7 @@ Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dili
   - Cek duplikasi, dilakukan dengan menggunakan kombinasi kolom logis seperti Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit.
   - Cek data kosong (NULL), analisis menyeluruh dilakukan pada semua kolom untuk mendeteksi nilai yang kosong.
   - Cek tanggal rusak / salah format
+    
 Preprocesing:
-  - Mengubah Type Data Order_Date dan Ship_Date
+  - Mengubah Type Data Order_Date dan Ship_Date menjadi datetime
   - Menghapus kolom duplikat dengan 6 kolom dengan Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit sama.
