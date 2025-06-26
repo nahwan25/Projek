@@ -37,7 +37,13 @@ bisnis yang berdampak.
     Hasil dapat dilihat di Hasil Eksplorasi Data with SQL:
     - Terdapat 1 duplikasi, maka dilakukan penghapusan duplikasi dengan python.
 - Bisnis Intelegence
-
+    Pertanyaan Bisnis?
+    Problem Framing
+    1. Produk mana yang paling menguntungkan?
+    2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
+    3. Wilayah mana yang perlu ditingkatkan pemasarannya?
+    Jawaban bisnis dapat dilihat di Hasil Eksplorasi Data with SQL
+       
 ## Python
 Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dilihat di eksplorasi data dengan set up python 3.12.7 dan mysql.connector 9.3.0:
   - Menampilkan data awal, ditampilkan 10 baris pertama dari tabel untuk eksplorasi awal struktur data.
@@ -48,3 +54,11 @@ Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dili
 Preprocesing:
   - Mengubah Type Data Order_Date dan Ship_Date menjadi datetime
   - Menghapus kolom duplikat dengan 6 kolom dengan Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit sama.
+
+- Bisnis Intelegence
+    Pertanyaan Bisnis?
+    Problem Framing
+    1. Produk mana yang paling menguntungkan?
+    2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
+    3. Wilayah mana yang perlu ditingkatkan pemasarannya?
+    Jawaban bisnis dapat dilihat di 
