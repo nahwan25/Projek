@@ -49,7 +49,7 @@ bisnis yang berdampak.
     Jawaban bisnis dapat dilihat di Hasil Eksplorasi Data with SQL
        
 ## Python
-Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dilihat di eksplorasi data dengan set up python 3.12.7 dan mysql.connector 9.3.0:
+Menghubungkna python dan MySQL dengan set up python 3.12.7 dan mysql.connector 9.3.0, serta melakukan ekplorasi data:
   - Menampilkan data awal, ditampilkan 10 baris pertama dari tabel untuk eksplorasi awal struktur data.
   - Cek duplikasi, dilakukan dengan menggunakan kombinasi kolom logis seperti Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit.
   - Cek data kosong (NULL), analisis menyeluruh dilakukan pada semua kolom untuk mendeteksi nilai yang kosong.
