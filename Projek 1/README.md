@@ -35,7 +35,11 @@ bisnis yang berdampak.
   - Cek tanggal rusak / salah format, menggunakan fungsi STR_TO_DATE untuk memastikan data tanggal valid dan terformat dengan benar.
     
     Hasil dapat dilihat di Hasil Eksplorasi Data with SQL:
-    - Terdapat 1 duplikasi, maka dilakukan penghapusan duplikasi dengan python.
+    - Terdapat 1 duplikasi kombinasi kolom logis seperti Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit, maka dilakukan penghapusan duplikasi
+ 
+   Preprocessing:
+    - Menghapus kolom duplikat dengan 6 kolom dengan Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit sama.
+      
 - Bisnis Intelegence, query dapat dilihat di Eksplorasi Data
     Pertanyaan Bisnis?
     Problem Framing 
@@ -53,7 +57,6 @@ Berikut adalah hasil eksplorasi data yang telah dilakukan untuk query dapat dili
     
 Preprocesing:
   - Mengubah Type Data Order_Date dan Ship_Date menjadi datetime
-  - Menghapus kolom duplikat dengan 6 kolom dengan Order_ID, Product_ID, Quantity, Sales, Discount, dan Profit sama.
 
 - Bisnis Intelegence
     Pertanyaan Bisnis?
