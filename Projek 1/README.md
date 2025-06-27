@@ -64,4 +64,7 @@ Preprocesing:
     1. Produk mana yang paling laris?
     2. Apakah diskon meningkatkan penjualan atau malah menurunkan profit?
     3. Wilayah mana yang perlu ditingkatkan pemasarannya?
-    Jawaban bisnis dapat dilihat di 
+    Jawaban bisnis dapat dilihat di
+
+## Dashboard, Power BI
+
