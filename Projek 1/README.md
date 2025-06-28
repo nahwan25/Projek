@@ -68,3 +68,5 @@ Preprocesing:
 
 ## Dashboard, Power BI
 - Menghubungkan Power BI dengan MySQL untuk mengambil data sebagai sumber dashboard.
+
+## Keputusan Bisnis
